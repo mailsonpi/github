@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Providil Engenharia - Blog</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="logo01.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>prodivilengenharia@outlook.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address> IRARÁ BAHIA, RUA DA MANGABEIRA 318</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header-top-btn">Contato</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="logo01.png" alt="Homeverse logo" width="10%">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="logo01.png" alt="Homeverse logo" width="20%">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+              <li>
+                <a href="index.html" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="empresa.html" class="navbar-link" data-nav-link>Sobre</a>
+              </li>
+
+              <li>
+                <a href="empreedimentos.html" class="navbar-link" data-nav-link>Empreedimentos</a>
+              </li>
+
+              <li>
+                <a href="atuacao.html" class="navbar-link" data-nav-link>Atuação</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Obras</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Clientes</a>
+              </li>
+                
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+        
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+  <section class="containerproje">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+             
+            
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+           
+              
+             </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+              <h3>INFORMAÇÃO</h3>
+             
+              
+             </div>
+            </div>
+        </div>
+
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+         
+
+            <h2 class="h1 hero-title">Como uma construtora funciona?</h2>
+
+            <p class="hero-text">
+
+
+            </p>
+
+           
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="equipe.jpg" alt="Modern house model" class="w-100">
+          </figure>
+
+        </div>
+      </section>
+    <section class="infotext">
+      <div class="text">
+          <p class="section-subtitle">Sobre</p>
+          <h2 class="h2 section-title">NOSSA EMPRESA</h2>
+          <h3 class="tt">O Papel da Construtora</h3>
+        <p>
+         Uma construtora desempenha um papel fundamental na execução de projetos de engenharia civil.
+Ela é responsável por transformar as ideias e planos concebidos pelos arquitetos e engenheiros em
+realidade. A construtora coordena todas as etapas do processo de construção, desde a preparação
+do terreno até a entrega final da obra. Isso envolve a contratação de mão de obra qualificada,
+aquisição de materiais, gerenciamento de prazos e garantia da qualidade do trabalho realizado.
+
+        </p>
+      </div>
+          <div class="text">
+             <h3 class="tt">Planejamento e Orçamento</h3>
+         <p>
+        Antes do início da construção, a construtora realiza um planejamento detalhado do projeto. Isso inclui
+o estudo dos documentos técnicos, a definição das etapas de construção, a estimativa de custos e a
+elaboração de um cronograma. Com base nessas informações, a construtora prepara um orçamento
+que contempla todos os gastos envolvidos, desde a contratação de profissionais e compra de
+materiais até os custos indiretos. Esse planejamento e orçamento servem como guia durante toda a
+execução do projeto.
+
+        </p>
+      
+      </div>
+          <div class="text">
+             <h3 class="tt">Gerenciamento da Obra
+</h3>
+         <p>
+      Durante a execução da obra, a construtora desempenha um papel fundamental no gerenciamento de
+todas as atividades. Ela coordena a equipe de trabalho, acompanha o cumprimento do cronograma,
+garante a qualidade da construção e realiza o controle de custos. Além disso, a construtora está
+atenta aos requisitos legais e normas técnicas, garantindo que a obra esteja em conformidade com
+as regulamentações vigentes. O gerenciamento eficiente é essencial para evitar atrasos, retrabalhos
+e problemas durante a execução da obra.
+
+
+        </p>
+      
+      </div>
+               <div class="text">
+             <h3 class="tt">Entrega e Pós-Obra</h3>
+         <p>
+      Após a conclusão da construção, a construtora realiza uma vistoria final para verificar se tudo está de
+acordo com o projeto original e os requisitos do cliente. Em seguida, a obra é entregue ao
+proprietário, acompanhada dos documentos necessários, como o termo de recebimento e garantia.
+Além disso, muitas construtoras oferecem serviços de pós-obra, que incluem assistência técnica e
+manutenção, visando garantir a satisfação do cliente a longo prazo.
+
+
+        </p>
+      
+      </div>
+      
+    </section>
+ <section class="features">
+        <div class="container">
+
+          <p class="section-subtitle">Serviços</p>
+
+          <h2 class="h2 section-title">ÁREAS DE ATUAÇÃO</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <img src="controle.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONSTRUÇÃO CIVIL</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                   <img src="constucaocivil.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">INCORPORAÇÃO E CONSTRUÇÃO IMOBILIÁRIA</h3>
+
+                <div class="card-btn">
+                   <img src="constucaocivil.svg" width="50%">
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <img src="recuperacao.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">RECUPERAÇÃO DE ESTRUTURAS E RESTAURAÇÃO</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="encostas.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONTENÇÃO DE ENCOSTAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="fundacoes.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONTROLE DE OBRAS DE TERRAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                   <img src="incorporacao.svg" width="50%">
+                </div>
+
+                <h3 class="card-title"> INVESTIGAÇÃO GEOTÉCNICAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="investigacaogeotecnica.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">FUNDAÇÕES E PROVAS DE CARGAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="predios.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">Predios</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="features">
+    
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Soluções inteligente em engenharia é com a Prodivil
+</h2>
+
+              <p class="card-text">Sonhos de forma econômica, sem surpresas, em menos tempo e sem ser enganado</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Contato</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo01.png" alt="Homeverse logo" width="30%">
+          </a>
+
+          <p class="section-text">
+           Quer se sentir mais seguro?
+Junte-se a nossa comunidade, grupo VIP no WhatsApp
+para atendimentos.
+Tenha uma experiência única!
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>IRARÁ BAHIA, RUA DA MANGABEIRA 318</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+55 (75) 9811-0436</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>prodivilengenharia@outlook.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Nossa Empresa</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Historia</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contato</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Trabalhe conosco</a>
+            </li>
+
+         
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Serviços</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Orçamentos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Requisitos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Termos e contratos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Entregas</a>
+            </li>
+
+      
+          
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Ouvidoria</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Reclamações</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Relatos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sugestões</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Como podemos te ajudar?</a>
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">Minuti Studio</a>. Todos Direitos Reservados
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

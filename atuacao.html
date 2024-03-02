@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Providil Engenharia</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="logo01.png" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/slider.css">
+      <link rel="stylesheet" href="./assets/css/ser.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <span>prodivilengenharia@outlook.com</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address> IRARÁ BAHIA, RUA DA MANGABEIRA 318</address>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <ul class="header-top-social-list">
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="header-top-social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <button class="header-top-btn">Contato</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="logo01.png" alt="Homeverse logo" width="10%">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="logo01.png" alt="Homeverse logo" width="20%">
+            </a>
+
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
+
+               <li>
+                <a href="index.html" class="navbar-link" data-nav-link>Inicio</a>
+              </li>
+
+              <li>
+                <a href="empreedimentos.html" class="navbar-link" data-nav-link>Empreedimentos</a>
+              </li>
+
+              <li>
+                <a href="atuacao.html" class="navbar-link" data-nav-link>Sobre</a>
+              </li>
+
+              <li>
+                <a href="#blog" class="navbar-link" data-nav-link>Clientes</a>
+              </li>
+
+              <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Blog</a>
+              </li>
+               <li>
+                <a href="#contact" class="navbar-link" data-nav-link>Obras</a>
+              </li>
+
+
+            </ul>
+          </div>
+
+        </nav>
+
+        <div class="header-bottom-actions">
+
+        
+
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
+
+            <span>Menu</span>
+          </button>
+
+        </div>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+    <section class="containerproje">
+        <div class="slide-container active">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+             
+            
+             </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+               <h3>INFORMAÇÃO</h3>
+           
+              
+             </div>
+            </div>
+        </div>
+        
+        <div class="slide-container">
+            <div class="slide">
+             <div class="contentproje">
+              <h3>INFORMAÇÃO</h3>
+             
+              
+             </div>
+            </div>
+        </div>
+
+        
+        <div id="prev" onclick="prev()"> < </div>
+        <div id="next" onclick="next()"> > </div>
+    </section>
+ <section class="features">
+        <div class="container">
+
+          <p class="section-subtitle">Serviços</p>
+
+          <h2 class="h2 section-title">ÁREAS DE ATUAÇÃO</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <img src="controle.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONSTRUÇÃO CIVIL</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                   <img src="constucaocivil.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">INCORPORAÇÃO E CONSTRUÇÃO IMOBILIÁRIA</h3>
+
+                <div class="card-btn">
+                    <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <img src="recuperacao.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">RECUPERAÇÃO DE ESTRUTURAS E RESTAURAÇÃO</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="encostas.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONTENÇÃO DE ENCOSTAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="fundacoes.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">CONTROLE DE OBRAS DE TERRAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                   <img src="incorporacao.svg" width="50%">
+                </div>
+
+                <h3 class="card-title"> INVESTIGAÇÃO GEOTÉCNICAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="investigacaogeotecnica.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">FUNDAÇÕES E PROVAS DE CARGAS</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                 <img src="predios.svg" width="50%">
+                </div>
+
+                <h3 class="card-title">Predios</h3>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="cc.png" alt="House interior">
+
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Construção Civil</h2>
+
+            <p class="about-text">
+          
+Execução de obras de construção civil para fins residenciais, de infraestrutura, industriais,
+comerciais, obras de arte especiais, entre outras.
+          <span class="infoe">Tipos de obra:</span> 
+                <li>Construção de obras civis e especiais para uso da indústria, inclusive a petroquímica.</li>
+                <li>Construção de equipamentos públicos (edificações para atender finalidades
+diversas, infraestrutura, pontes, entre outros). </li>
+                <li>Construção de edifícios residenciais, comerciais e de serviços.</li>
+                <li>Construção de obras civis e especiais para uso da indústria, inclusive a petroquímica.</li>
+            
+            </p>
+            
+          </div>
+
+        </div>
+          <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Recuperação de Estruturas e Restauração</h2>
+
+            <p class="about-text">
+          
+Execução de obras e serviços necessários em estruturas danificadas ou para destinação a
+novos usos, como:<br>
+                <ul>   
+                <li>Recuperação, reforço e manutenção estrutural.</li>
+                <li>Recuperação e reforço de pontes, viadutos e obras especiais</li>
+                <li>Recuperação de estruturas atingidas por acidentes, como incêndios, recalques, choques</li>
+                <li>Restauração de obras especiais componentes do patrimônio histórico.</li>
+                <li>Reformas especiais de edificações.</li>
+               </ul>
+            </p>
+          </div>
+              <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+
+          </figure>
+
+        </div>
+                <div class="container">
+
+          <figure class="about-banner">
+            <img src="ce.jpg" alt="House interior">
+
+          
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Contenção de Encostas
+</h2>
+
+            <p class="about-text">
+          Execução de obras de estabilização de encostas em diversas situações de uso, com o
+emprego de várias técnicas consagradas, como a utilização de cortinas atirantadas, solos
+grampeados, alvenarias de contenção, dentre outras, precedidas de estudos e projetos
+adequados aliando a boa técnica à solução mais econômica.
+            
+            </p>
+            
+          </div>
+
+        </div>
+             <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Incorporação e construção imobiliária</h2>
+
+            <p class="about-text">
+   Incorporação e construção de empreendimentos imobiliários para atender públicos das
+diversas classes sociais, com tipologias diversas, sempre buscando a satisfação do cliente
+pela qualidade, pontualidade e atendimento personalizado.
+A atenção pela escolha da localização do empreendimento; a análise das facilidades do
+entorno e das características de mobilidade para os adquirentes; a adequação do produto
+nos seus detalhes; a atualização dos projetos adotados, obedecendo a tendência do desejo
+dos usuários; a oferta ampla com esmero na qualidade das áreas comuns e a adoção de
+práticas sustentáveis na fase de construção e para a vida útil do empreendimento fazem,
+entre outros atributos, a diferença do produto Prodivil.
+            </p>
+          </div>
+              <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+
+         
+          </figure>
+
+        </div>
+              <div class="container">
+
+          <figure class="about-banner">
+            <img src="ce.jpg" alt="House interior">
+
+      
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Investigações Geotécnicas</h2>
+
+            <p class="about-text">
+Execução de sondagens de reconhecimento dos solos, com e sem torque, à percussão,
+mistas e rotativas para a determinação de parâmetros geotécnicos e geológicos.
+            
+            </p>
+            
+          </div>
+
+        </div>
+                <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Controle de obras de terra</h2>
+
+            <p class="about-text">
+Realização de ensaios geotécnicos em laboratório e em campo para caracterização de
+amostras de solo e definição de suas propriedades, visando a definição de jazidas e a
+adequação do uso dos materiais.
+Controle tecnológico da execução de obras de terra, em especial de aterros, e da execução
+de pavimentos com o uso de Concreto Betuminoso Usinado a Quente, paralelepípedos e
+placas ou blocos pré-moldados em concreto de Cimento Portland.
+Projetos finais de engenharia, acompanhamento e fiscalização na implantação de obras de
+vias urbanas, loteamentos e rodovias
+            </p>
+          </div>
+              <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+
+          </figure>
+
+        </div>
+             <div class="container">
+
+          <figure class="about-banner">
+            <img src="ce.jpg" alt="House interior">
+
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Fundações e Provas de Cargas</h2>
+
+            <p class="about-text">
+Execução de fundações profundas, em especial estacas do tipo raiz ou presso
+ancoradas.Utilizada como a melhor alternativa em situações específicas, a opção de
+fundação em estaca “raiz” se torna muitas vezes a mais viável, segura e possível para
+empreendimentos diversos.
+Sua versatilidade, pela dimensão dos equipamentos utilizados, resolve dificuldades
+impostas por falta de espaço físico.
+            
+            </p>
+            
+          </div>
+
+        </div>
+       <div class="container">
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title">Engenharia Consultiva
+</h2>
+
+            <p class="about-text">
+Realização de serviços envolvendo as diversas competências técnicas desenvolvidas na
+empresa, como:Fiscalização e supervisão de obras.
+Pareceres técnicos.
+Estudos de patologia de estruturas de concreto.
+Estudos, projetos básicos e finais de engenharia na área rodoviária.
+Estudos de soluções inovadoras e alternativas de engenharia para atendimento a
+necessidades específicas.
+
+            </p>
+          </div>
+              <figure class="about-banner">
+            <img src="tt.webp" alt="House interior">
+
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="features">
+    
+
+      <section class="cta">
+        <div class="container">
+
+          <div class="cta-card">
+            <div class="card-content">
+              <h2 class="h2 card-title">Soluções inteligente em engenharia é com a Prodivil
+</h2>
+
+              <p class="card-text">Sonhos de forma econômica, sem surpresas, em menos tempo e sem ser enganado</p>
+            </div>
+
+            <button class="btn cta-btn">
+              <span>Contato</span>
+
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="logo01.png" alt="Homeverse logo" width="30%">
+          </a>
+
+          <p class="section-text">
+           Quer se sentir mais seguro?
+Junte-se a nossa comunidade, grupo VIP no WhatsApp
+para atendimentos.
+Tenha uma experiência única!
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="#" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>IRARÁ BAHIA, RUA DA MANGABEIRA 318</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>+55 (75) 9811-0436</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>prodivilengenharia@outlook.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Nossa Empresa</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Historia</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Contato</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Trabalhe conosco</a>
+            </li>
+
+         
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Serviços</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Orçamentos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Requisitos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Termos e contratos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Entregas</a>
+            </li>
+
+      
+          
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-list-title">Ouvidoria</p>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Reclamações</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Relatos</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Sugestões</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link">Como podemos te ajudar?</a>
+            </li>
+
+           
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <a href="#">Minuti Studio</a>. Todos Direitos Reservados
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
